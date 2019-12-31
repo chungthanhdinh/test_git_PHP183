@@ -1,0 +1,41 @@
+                                * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            
+                            .col-lg-3 {
+                                display: block;
+                            }
+                            
+                            #session-1 {
+                                padding-bottom: 50px;
+                                padding-top: 50px;
+                            }
+                            
+                            #session-3 {
+                                padding-bottom: 50px;
+                                padding-top: 50px;
+                            }
+                            
+                            #session-2,
+                            #footer {
+                                background-color: black;
+                                .box {
+                                    background-color: white;
+                                    padding: 16px;
+                                }
+                                .ke-chan {
+                                    padding-bottom: 20px;
+                                    border-bottom: 1px solid #333333;
+                                    margin-bottom: 20px;
+                                }
+                                li a {
+                                    list-style: none;
+                                    color: #333333;
+                                }
+                                .ke-chan-xam {
+                                    padding-top: 20px;
+                                    border-bottom: 1px solid #333333;
+                                    margin-top: 20px;
+                                }

@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: #E7ECF4;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+}
+
+span {
+    color: #FFF !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    /* padding: top right botton left */
+    padding: 11px 0;
+    background-color: black;
+}
+
+#search input {
+    margin-right: -4px;
+    padding-left: 12px;
+    height: 30px;
+    width: 277px;
+    border: none;
+    /* border-radius: bo tròn góc */
+    border-radius: 5px 0 0 5px;
+    float: left;
+    margin-top: 4px;
+}
+
+#search input::placeholder {
+    color: #222222;
+}
+
+#search button {
+    background-color: #EB1F27;
+    color: #FFF;
+    height: 30px;
+    width: 89px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    float: left;
+    margin-top: 4px;
+}
+
+#search {
+    overflow: auto;
+}
+
+#sup-cart span {
+    background-color: #EB1F27;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+#sup-cart {
+    text-align: right;
+    color: #FFF;
+}
+
+.mau-1 {
+    background-color: #EB1F27;
+}
+
+.text-menu {
+    display: none;
+}
+
+.menu {
+    padding: 0px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav li {
+    border-right: 2px solid #C60A11;
+    padding: 14px;
+}
+
+nav li:hover {
+    background-color: chocolate;
+}
+
+nav a {
+    padding: 0px !important;
+}
+
+.col-lg-8 {
+    padding-left: 0px;
+}
+
+.col-lg-4 {
+    padding-right: 0px;
+}
+
+.abc {
+    width: 40px;
+    height: 40px;
+}
+
+#list-banner img {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: white;
+    padding: 25px 0;
+    margin-top: 32px;
+}
+
+.infor img {
+    margin-bottom: 20px !important
+}
+
+.infor h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.fotter-bottom {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.fotter-bottom p {
+    margin-bottom: 0px;
+}
+
+.san-pham p {
+    text-align: center;
+}
+
+
+/* css product */
+
+.product {
+    background-color: white;
+    padding: 10px 23px 32px 23px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.product img {
+    width: 125px;
+    height: 173px;
+}
+
+
+/* margin chung */
+
+.m-b-10 {
+    margin-bottom: 15px;
+}
+
+.fix-padding-col {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.fix-row {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.list-product h2 {
+    font-size: 18px;
+    padding: 18px 0px 12px 0px;
+    margin: 0px;
+    font-weight: bold;
+}

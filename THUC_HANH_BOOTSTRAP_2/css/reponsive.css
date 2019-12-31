@@ -1,0 +1,42 @@
+/* reposive md */
+
+@media only screen and (max-width:992px) {
+    #logo {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    #search input {
+        width: 80%;
+    }
+    #search button {
+        width: 20%;
+    }
+    .text-menu {
+        display: block;
+        font-size: 18px;
+        padding-left: 15px !important;
+    }
+    #list-banner,
+    .slide {
+        display: none;
+    }
+    .infor {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+/* reposive sm */
+
+@media only screen and ( max-width:768px) {
+    #logo {
+        text-align: left;
+    }
+    /* tác động để đẩy cụm giỏ hàng lên trên cao*/
+    #sup-cart {
+        position: absolute;
+        top: -76px;
+        right: 15px;
+    }
+}
